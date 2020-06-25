@@ -5,7 +5,7 @@
 }
 
 html,
-body,
+
 .wrapper {
   height: 100%;
   margin: 0;
@@ -69,6 +69,7 @@ h1 {
 
 .card-body {
   min-height: 100px;
+  position: relative;
 }
 
 .card-footer {
@@ -89,7 +90,7 @@ h1 {
   clear: both;
 }
 
-.generateBtn {
+.btn {
   border: none;
   background-color: rgb(8, 155, 175);
   border-radius: 25px;
@@ -154,8 +155,4 @@ button[disabled] {
   .btn {
     font-size: 0.8rem;
   }
-}
-.container {
-  width: 1024px;
-  margin: 0 auto;
 }
