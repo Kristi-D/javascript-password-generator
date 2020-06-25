@@ -25,7 +25,7 @@ p {
 }
 
 .container {
-  width: 1024px;
+  width: 500px;
   margin: 0 auto;
   text-align: center;
 }
@@ -55,8 +55,9 @@ h1 {
   color: hsl(206, 17%, 28%);
   font-size: 18px;
   margin: 0 auto;
-  max-width: 800px;
-  padding: 30px 40px;
+  max-width: 500px;
+  padding: 0px 40px;
+  text-align: center;
 }
 
 .card-header::after {
@@ -68,8 +69,9 @@ h1 {
 }
 
 .card-body {
+ 
   min-height: 100px;
-  position: relative;
+    
 }
 
 .card-footer {

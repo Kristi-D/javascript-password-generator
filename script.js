@@ -27,7 +27,7 @@ if(passwordLength > 128 ) {
     
 }
 
-console.log(passwordLength)
+console.log(passwordLength);
 
 let choices = "";
 
